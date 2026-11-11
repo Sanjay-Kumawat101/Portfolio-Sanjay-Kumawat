@@ -33,7 +33,7 @@ export default function App() {
     <>
       <Orbs />
       <motion.img
-        src="/scroll-visual.svg"
+        src={`${import.meta.env.BASE_URL}scroll-visual.svg`}
         alt=""
         aria-hidden="true"
         draggable="false"
