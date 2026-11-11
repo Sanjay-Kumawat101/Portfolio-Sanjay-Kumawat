@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="none">
+  <defs>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="matrix(0 178 -178 0 320 318)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EF4444" stop-opacity=".5"/>
+      <stop offset=".52" stop-color="#991B1B" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#090909" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="120" x2="526" y1="170" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCA5A5" stop-opacity="1"/>
+      <stop offset=".5" stop-color="#EF4444" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#7F1D1D" stop-opacity=".96"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#FEE2E2"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow" width="2.5" height="2.5" x="-.75" y="-.75" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <circle cx="320" cy="318" r="220" fill="url(#core)"/>
+  <circle cx="320" cy="318" r="170" stroke="url(#orbit)" stroke-opacity=".4" stroke-width="1.5"/>
+  <circle cx="320" cy="318" r="214" stroke="url(#orbit)" stroke-dasharray="3 12" stroke-linecap="round" stroke-opacity=".7" stroke-width="1.5"/>
+  <ellipse cx="320" cy="318" stroke="url(#orbit)" stroke-opacity=".82" stroke-width="2" transform="rotate(-32 320 318)" rx="246" ry="104"/>
+  <ellipse cx="320" cy="318" stroke="url(#orbit)" stroke-opacity=".62" stroke-width="1.5" transform="rotate(48 320 318)" rx="236" ry="91"/>
+  <path d="M142 408c59-44 103-61 164-61 65 0 114 23 189 74" stroke="url(#orbit)" stroke-opacity=".6" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <path d="M178 219c44 26 91 39 142 39 51 0 98-13 142-39" stroke="url(#orbit)" stroke-opacity=".56" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <circle cx="320" cy="318" r="74" fill="#EF4444" fill-opacity=".18" filter="url(#glow)"/>
+  <circle cx="320" cy="318" r="49" fill="#130A0B" fill-opacity=".82" stroke="url(#orbit)" stroke-opacity=".8"/>
+  <path d="M294 325h52m-42-17h32m-25 34h18" stroke="url(#node)" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="157" cy="240" r="7" fill="#FCA5A5"/>
+  <circle cx="157" cy="240" r="15" stroke="#F87171" stroke-opacity=".42"/>
+  <circle cx="484" cy="406" r="8" fill="#EF4444"/>
+  <circle cx="484" cy="406" r="17" stroke="#EF4444" stroke-opacity=".45"/>
+  <circle cx="440" cy="172" r="5" fill="#FCA5A5"/>
+  <circle cx="205" cy="480" r="5" fill="#B91C1C"/>
+  <circle cx="392" cy="486" r="3" fill="#FCA5A5" fill-opacity=".9"/>
+  <circle cx="235" cy="144" r="3" fill="#FECACA" fill-opacity=".9"/>
+</svg>

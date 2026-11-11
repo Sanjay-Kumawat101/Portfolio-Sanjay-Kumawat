@@ -1,8 +1,6 @@
 node_modules/
 coverage/
 .vite/
-public/
-
 # Environment files
 .env*
 !.env.example
